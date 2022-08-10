@@ -6,15 +6,19 @@
 </head>
 <body>
 <script>
-  let a=1;b=1;sum=0;tong=0
-  let sl=+prompt("Bạn muốn tính tổng số fibonaci?")
-  for(let i=1;i<=sl;i++){
-    sum=a+b
-    a=b
-    b=sum
-    tong=tong+a
-  }
-  document.write(tong)
+    let a = 0;
+    b = 1;
+    sum = 0;
+    tong = 0
+    let sl = +prompt("Bạn muốn tính tổng số fibonaci?")
+    for (let i = 1; i <= sl; i++) {
+        tong = tong + a
+        sum = a + b
+        a = b
+        b = sum
+
+    }
+    document.write(tong)
 </script>
 </body>
 </html>
