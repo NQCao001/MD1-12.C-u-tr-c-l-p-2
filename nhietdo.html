@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for(;;) {
+        let nhietdo = +prompt("Vui lòng nhập nhiệt độ thực tế")
+        if (nhietdo < 20) {
+            alert("Nhiệt độ thấp quá, tăng nhiệt độ nên đi!")
+        }
+        if (nhietdo > 100) {
+            alert("Nhiệt độ cao quá, hạ xuống đi!!!")
+        }
+        if (20 <= nhietdo && nhietdo <= 100) {
+            alert("Nhiệt độ bình thường")
+            break
+        }
+    }
+</script>
+</body>
+</html>

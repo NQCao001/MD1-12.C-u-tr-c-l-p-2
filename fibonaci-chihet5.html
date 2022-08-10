@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=1;b=1;text="";
+    let sl=+prompt("Chiều dài dãy cần kiểm tra?")
+    for(let i=1;i<=sl;i++){
+        text=a+b
+        a=b
+        b=text
+        if(a%5==0){
+            document.write("Số chia hết cho 5 đầu tiên trong dãy là:"+a)
+            break
+        }
+    }
+</script>
+</body>
+</html>

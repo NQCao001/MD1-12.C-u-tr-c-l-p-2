@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a=1;b=1;sum=0;tong=0
+  let sl=+prompt("Bạn muốn tính tổng số fibonaci?")
+  for(let i=1;i<=sl;i++){
+    sum=a+b
+    a=b
+    b=sum
+    tong=tong+a
+  }
+  document.write(tong)
+</script>
+</body>
+</html>
